@@ -1,0 +1,17 @@
+.todoItem{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.todoItem>p{
+    flex: 1;
+}
+
+.todoItem--done{
+    text-decoration: line-through;
+}
